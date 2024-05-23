@@ -1,3 +1,31 @@
 body {
-    background-color: rgb(19, 119, 185);
+    background-color: #242A66;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+
+.input {
+    width: 100%;
+    max-width: 700px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #432C7A;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background-color: #432C7A;
+    font-size: large;
+    outline: none;
+}
+
+.user {
+    margin-top: 2rem;
+}
+
+
+/* search and main background: #432C7A; repos background: #1D2966
