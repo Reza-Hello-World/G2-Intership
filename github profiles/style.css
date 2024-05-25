@@ -13,6 +13,7 @@ body {
     padding: 1rem;
     border-radius: 10px;
     background-color: #432C7A;
+    /* margin: 1rem; */
 }
 
 input {
@@ -24,8 +25,71 @@ input {
 }
 
 .user {
+    display: flex;
     margin-top: 2rem;
+    background-color: #432C7A;
+    padding: 2rem;
+    border-radius: 10px;
 }
 
+.imageLeft img {
+    border-radius: 50%;
+    width: 10rem;
+    border: 10px solid #1212be;
+}
 
-/* search and main background: #432C7A; repos background: #1D2966
+.userData {
+    margin-left: 2rem;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+strong {
+    margin-left: 0.3rem;
+    font-size: 0.9rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #242A66;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin-right: 1rem;
+}
+
+.repoLinks ul {
+    justify-content: flex-start;
+}
+
+@media (max-width:800px) {
+    .user {
+        flex-direction: column;
+        align-items: center;
+    }
+    ul {
+        margin-top: 2rem;
+    }
+    .input {
+        max-width: 400px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .userData {
+        margin-left: 0;
+    }
+    .detail {
+        margin-top: 3rem;
+    }
+}
