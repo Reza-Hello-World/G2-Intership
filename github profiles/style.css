@@ -93,3 +93,18 @@ a {
         margin-top: 3rem;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .userData {
+        color: white;
+    }
+    input {
+        color: white;
+    }
+    .imageLeft img {
+        border: 10px solid #523F57;
+    }
+    .errMsg {
+        color: white;
+    }
+}
